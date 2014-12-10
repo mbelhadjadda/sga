@@ -1,0 +1,39 @@
+{
+  "name": "mosquel",
+  "version": "1.0.0",
+  "description": "Skeleton for node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbelhadjadda/mosquel"
+  },
+  "author": "Mohamed Belhadj-Adda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbelhadjadda/mosquel/issues"
+  },
+  "homepage": "https://github.com/mbelhadjadda/mosquel",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "express": "^4.10.2",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.9.0",
+    "karma": "^0.12.25",
+    "karma-cli": "0.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-jasmine": "^0.8.1",
+    "jasmine-core": "^2.1.2",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-jasmine": "^0.3.0",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-qunit": "^0.1.4",
+    "qunitjs": "^1.15.0"
+  }
+}
