@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     grunt.initConfig({
         karma: {
@@ -20,6 +20,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('devmode', ['karma:unit', 'watch']);
     grunt.registerTask('test', ['karma:unit:run']);
-    
+
     grunt.registerTask('default', ['test']);
 };
