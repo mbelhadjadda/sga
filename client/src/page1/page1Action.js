@@ -1,4 +1,4 @@
-angular.module('sga', ['ngRoute']).config(['$routeProvider',
+angular.module('page1', ['ngRoute']).config(['$routeProvider',
   function ($routeProvider) {
         $routeProvider.when('/page1', {
             templateUrl: 'src/page1/page1.html',

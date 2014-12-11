@@ -1,0 +1,1 @@
+angular.module("sga", ["page1", "page2"]);
