@@ -1,10 +1,8 @@
-angular.module('sga', []).config(['$routeProvider',
+angular.module('sga', ['ngRoute']).config(['$routeProvider',
   function ($routeProvider) {
-    alert("ziooooooo page 2");
-    console.log("route provider : ", $routeProvider);
-    $routeProvider.when('#/page2', {
-        templateUrl: 'page2.html',
-        controller: 'Page2Controller'
-    });
-  }
+        $routeProvider.when('/page2', {
+            templateUrl: 'src/page2/page2.html',
+            controller: 'Page2Controller'
+        });
+
 }]);

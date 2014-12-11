@@ -1,8 +1,7 @@
-angular.module('page1', []).config(['$routeProvider',
+angular.module('sga', ['ngRoute']).config(['$routeProvider',
   function ($routeProvider) {
-    $routeProvider.when('/page1', {
-        templateUrl: 'page1.html',
-        controller: 'Page1Controller'
-    });
-  }
+        $routeProvider.when('/page1', {
+            templateUrl: 'src/page1/page1.html',
+            controller: 'Page1Controller'
+        });
 }]);
