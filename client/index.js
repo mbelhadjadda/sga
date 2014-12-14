@@ -1,1 +1,1 @@
-angular.module("sga", ["page1", "page2"]);
+angular.module("sga", ["page1", "page2", "pgeNt"]);
