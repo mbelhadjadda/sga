@@ -4,7 +4,6 @@ angular.module("sga", ["page1", "page2", "pageNt"]).run(['$rootScope', '$locatio
         $rootScope.noPageTracking = ["pageNt"];
         $rootScope.$on('$routeChangeSuccess',
             function (event) {
-                alert("zioooo");
                 alert($rootScope.noPageTracking);
 
                 alert($location.path());
