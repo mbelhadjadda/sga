@@ -1,4 +1,4 @@
 angular.module('page1').controller('Page1Controller', ['$scope',
     function ($scope) {
-        $scope.hello = 'Hola page 1!';
+        $scope.hello = 'Ma page 1!';
 }]);
