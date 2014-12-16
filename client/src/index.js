@@ -1,4 +1,4 @@
-angular.module("sga", ["page1", "page2", "pageNt"]).run(['$rootScope', '$location', '$window',
+angular.module("sga", ["page1", "page2", "pageNt", "home"]).run(['$rootScope', '$location', '$window',
     function ($rootScope, $location, $window) {
 
         $rootScope.noPageTracking = ["/pageNt"];
