@@ -1,12 +1,12 @@
 SGA
 =======
 
-Cette application permet de jouer avec l'outil de statistique de google : Google Analytics.
+> Cette application permet de jouer avec l'outil de statistique de google : Google Analytics.
 
 Pré-requis
 =======
 
-Installer Node.JS.
+> Installer Node.JS.
 
 Installation
 =======
